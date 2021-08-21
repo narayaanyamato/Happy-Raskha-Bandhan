@@ -1,0 +1,257 @@
+
+
+/* MDE WITH LOVE...*/
+
+
+ *{
+ 	margin: 0px;
+ 	padding: 0px;
+ 	box-sizing: border-box;
+ }
+
+ html
+ {
+ 	scroll-behavior: smooth;
+ }
+
+ body
+ {
+   background: #3f4e44;
+ }
+
+
+.header
+{
+  background: rgb(0, 0, 0,0.4);
+  widows: 100%;
+  height: auto;
+  padding: 15px;
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+} 
+
+
+
+@keyframes slide
+{
+
+}
+
+.top
+{
+	padding:6px;
+ 	color: white;
+    animation-name: text;
+    animation-duration: 1s;
+    animation-direction:alternate-reverse;
+   animation-iteration-count: infinite;
+}
+
+.top h1
+{
+	padding: 5px;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: 'Segoe Print';
+    font-size: 30px;
+
+
+}
+
+
+@media screen and (max-width: 554px)
+{
+
+    .top h1
+{
+    padding: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Segoe Print';
+    font-size: 20px;
+
+
+}
+
+
+}
+
+@keyframes text
+{
+
+	0%{
+		color: red;
+		width: 100%;
+	}
+
+	25%{
+		color: blue;
+		
+	}
+
+	50%{
+		color: #8fe092;
+		width: 90%;
+	}
+
+	75%{
+		color: #8ce2d5;
+		
+	}
+
+	100%{
+		color: orange;
+		width: 100%;
+	}
+}
+
+
+.img_tag 
+{
+   
+   
+   text-align: center;
+   font-family:Papyrus ;
+}
+
+.img_tag span
+{
+    color:gold;
+    grid-column-end: 
+    
+}
+
+.img_tag small
+{
+    color: white;
+
+}
+
+
+.bg_hack
+{
+ 
+  padding:10px ;
+   animation-name: bg;
+    animation-duration: 1.5s;
+    animation-direction:alternate-reverse;
+   animation-iteration-count: infinite;	
+
+}
+
+.bg_hack h3
+{
+	text-align: center;
+	font-family: serif;
+	border-bottom: 2px solid white;
+	color: white;
+	padding: 7px;
+	font-style: italic;
+	text-transform: capitalize;
+}
+
+
+@keyframes bg{
+
+	0%{
+		background: url('https://image.freepik.com/free-vector/happy-raksha-bandhan-festival-banner_1017-20011.jpg');
+       
+       background-size: 100% 100%;
+       background-position: center;
+
+	}
+
+	5%{
+		background:url('https://static.vecteezy.com/system/resources/previews/001/225/775/original/happy-raksha-bandhan-festival-banner-background-vector.jpg');
+
+       background-size: 100% 100%;
+       background-position: center;
+	}
+
+	100%{
+		background:url(https://static.vecteezy.com/system/resources/previews/001/200/608/original/happy-raksha-bandhan-banner-with-decroative-element-vector.jpg);
+
+       background-size: 100% 100%;
+       background-position: center;
+	}
+}
+
+
+.quote
+{
+    background:url('https://static.vecteezy.com/system/resources/previews/001/266/421/original/raksha-bandhan-orange-banner-with-4-colorful-mandalas-vector.jpg');
+     background-position: center;
+     background-attachment: fixed;
+     background-size:100% 100%;
+
+}
+
+
+@media screen and (max-width: 554px)
+{
+
+    .quote
+{
+    background:url('https://static.vecteezy.com/system/resources/previews/001/266/421/original/raksha-bandhan-orange-banner-with-4-colorful-mandalas-vector.jpg');
+     background-position: center;
+     background-attachment: fixed;
+     background-size: cover;
+
+}
+
+}
+
+
+
+.quote h4
+{
+ 
+  color: white;
+  padding: 10px;
+  font-family:'Ink Free' ;
+  font-size: 40px;
+  text-transform: capitalize;
+  text-align: center;
+  lighting-color: orange;
+  line-height: 1.1;
+  font-weight: 200;
+  margin-top: 80px;
+
+}
+
+.quote img
+{
+    border-radius: 50%;
+     display: block;
+    width:60%;
+    height: 400px;
+    margin: auto;
+}
+
+
+.chat
+{
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    border-radius: 10px;
+}
+
+.footer
+{
+    background: #2b7e7b;
+
+}
+
+.footer h3
+{
+    color: white;
+    font-family: serif;
+    text-align: center;
+    padding: 6px;
+    text-transform: capitalize;
+    font-style: italic;
+   font-size: 20px;
+}

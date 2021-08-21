@@ -1,0 +1,77 @@
+
+
+
+/* made with love---///mc*? */
+
+.chat-box
+{
+	width: 500px;
+	height: auto;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+	margin: auto;
+}
+
+.chat-box h3
+{
+	color: white;
+	padding: 7px;
+	padding-top: 10;
+	border-bottom: 1px double; white;
+}
+
+@media screen and (max-width: 770px)
+{
+
+	.chat-box
+{
+	width:100%;
+	height: auto;
+    background-size: cover;
+	box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+	
+}
+
+
+
+}
+
+
+
+
+
+.form
+{
+
+	margin-top: 100px;
+	padding: 7px;
+	margin-bottom: 10px;
+}
+
+.form input[type="text"]
+{
+	width: 100%;
+	height: 40px;
+	border-radius: 7px;
+	padding: 4px;
+	;
+	margin-top: 10px;
+}
+
+.form input[type="submit"]
+{
+	padding: 5px 16px;
+	border-radius: 5px;
+	background: cornsilk;
+	color: purple;
+	font-family: serif;
+	font-size: 18px;
+	margin-top: 5px;
+}
+
+
+#chat
+{
+	padding: 15px;
+}
